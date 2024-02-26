@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: auto
+}
+
+.header-box {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 20px;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+}
+
