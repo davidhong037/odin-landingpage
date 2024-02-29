@@ -15,7 +15,7 @@
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-    padding: 50px 100px;
+    padding: 30px 100px;
 }
 
 .header-links {
@@ -35,7 +35,7 @@
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
-    padding: 100px;
+    padding: 80px;
     justify-content: center;
 }
 
@@ -67,4 +67,69 @@
     font-weight: bold;
     margin-top: 10px;
     width: 130px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px;
+}
+
+.section-two-top {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 40px;
+}
+
+.section-two-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-container {
+    width: 150px;
+    padding-right: 40px;
+}
+
+.placeholder-two {
+    border: 3px solid #3882F6;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.section-subtext {
+    margin-top: 10px;
+    color: #909091;
+}
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    background: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.section-three-container {
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    padding: 120px;
+}
+
+.end-quote {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 24px;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    padding-right: 60px;
 }
