@@ -133,3 +133,34 @@
     padding-top: 20px;
     padding-right: 60px;
 }
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 30px;
+    color: #F9FAF8;
+}
+
+.section-four-container {
+    box-sizing: border-box;
+    background-color: #3882F6;
+    padding: 76px 130px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action,
+#sign-up-two {
+    font-weight: bolder;
+}
+
+.sign-up-subtext {
+    font-weight: lighter;
+} 
+
+#sign-up-two {
+    border: 2px solid #F9FAF8;
+}
