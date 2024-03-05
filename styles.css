@@ -137,20 +137,27 @@
 .section-four {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 72px 30px;
     color: #F9FAF8;
+    
 }
 
 .section-four-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left-container {
     box-sizing: border-box;
     background-color: #3882F6;
     padding: 76px 130px;
     border-radius: 10px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    text-align: left;
 }
+
 
 .call-to-action,
 #sign-up-two {
@@ -163,4 +170,13 @@
 
 #sign-up-two {
     border: 2px solid #F9FAF8;
+}
+
+.footer-bottom {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-weight: lighter;
 }
